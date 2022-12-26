@@ -1,0 +1,34 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.5.3",
+    "@strapi/plugin-users-permissions": "4.5.3",
+    "@strapi/strapi": "4.5.3",
+    "@strapi/utils": "^4.5.3",
+    "better-sqlite3": "7.4.6",
+    "knex": "^2.3.0",
+    "pg": "^8.8.0",
+    "strapi-plugin-webpage-builder": "^1.0.0-alpha.0.1"
+  },
+  "author": {
+    "name": "Prahveen Thiruchelvam"
+  },
+  "strapi": {
+    "uuid": "0534d594-eac5-4d92-93e6-1f44ecc30a65"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
